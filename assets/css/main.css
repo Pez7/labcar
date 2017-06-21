@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.navbar-default{
+	color: white;
+	height: 12%;
+}
+#logo{
+	padding-top: 17px;
+}
+.navbar-nav{
+	padding: 13px 95px;
+}
+.nav>li>a{
+	padding-left: 39px;
+}
+
+.first{
+	background-image: url(../img/taxi.jpg);
+background-position: center bottom;
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+width: 100%;
+
+
+}
