@@ -87,6 +87,41 @@ hr{
     top: 44px;
     left: 95px;
 }
-h4{
+#app{
 	font-size: 22px;
+}
+.third{
+	background-image: url(../img/conduce.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 406px;
+}
+.conduce{
+	background-color: black;
+	opacity: 0.5;
+	height: 406px;
+	position: relative;
+	bottom: 20px;
+	right: 119px;
+	width: 448px;
+}
+.conduce h2{
+    color: white;
+    padding-top: 101px;
+    padding-left: 41px;
+}
+.conduce p{
+	color: white;
+    padding-left: 41px;
+    font-size: 20px;
+}
+.conduce button{
+	background-color: #f7b617;
+    border: none;
+    color: white;
+    padding-top: 7px;
+    position: relative;
+    left: 42px;
+    width: 262px;
 }
