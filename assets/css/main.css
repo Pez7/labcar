@@ -65,3 +65,28 @@ hr{
 	left: 30px;
 	font-weight: bold;
 }
+.second{
+	background-color: #f7b617;
+	height: 503px;
+	color:white;
+}
+#fono{
+	position: relative;
+    padding-top: 13px;
+    top: 31px;
+    left: 122px;
+    height: 306px;
+}
+.borde{
+	border: 1px solid #fff;
+	height: 463px;
+}
+.descarga{
+    position: relative;
+    width: 50%;
+    top: 44px;
+    left: 95px;
+}
+h4{
+	font-size: 22px;
+}
