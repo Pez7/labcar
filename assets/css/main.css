@@ -73,9 +73,9 @@ hr{
 #fono{
 	position: relative;
     padding-top: 13px;
-    top: 31px;
+    top: 43px;
     left: 122px;
-    height: 306px;
+    height: 338px;
 }
 .borde{
 	border: 1px solid #fff;
@@ -83,12 +83,15 @@ hr{
 }
 .descarga{
     position: relative;
-    width: 50%;
+    width: 59%;
     top: 44px;
-    left: 95px;
+    left: 118px;
 }
-#app{
-	font-size: 22px;
+.descarga p{
+    font-size: 21px;
+}
+.descarga h4{
+font-size: 32px;
 }
 .third{
 	background-image: url(../img/conduce.jpg);
@@ -124,4 +127,7 @@ hr{
     position: relative;
     left: 42px;
     width: 262px;
+}
+.fourth{
+	background-color: #f7b617
 }
