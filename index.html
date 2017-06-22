@@ -86,7 +86,8 @@
 					<button type="button" class="btn btn-default">¡TRAZAR RUTA!</button>
 				</div>
 			</div>
-				<div id="map" class="pull-right full-height border-white col-md-6 col-md-offset-2 hidden-xs hidden-sm">
+				<div class="col-md-push-6 border-white">
+					<div id="map"></div>
 				</div>
 		</div>
 	</section>
@@ -94,37 +95,46 @@
 		<div class="row">
 			<img src="assets/img/logo-blanco.png" alt="logo-blanco">
 		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<a href="#">Viaja</a>
-				<a href="#">Conduce</a>
-				<a href="#">Ciudades</a>
-				<a href="#">Ciudades</a>
-				<a href="#">Entregas</a>
-				<a href="#">¿Cómo funciona?</a>
-				<a href="#">Países</a>
-				<a href="#">Seguridad</a>
+			<hr>
+			<div class="row">
+				<div class="col-md-3">
+					<a href="#"><i>Ico</i></a>
+					<a href="#"><i>Ico</i></a>
+					<a href="#"><i>Ico</i></a>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-group link">
+						<li class="list-group"><a href="#">Viaja</a></li>
+						<li class="list-group"><a href="#">Conduce</a></li>
+						<li class="list-group"><a href="#">Ciudades</a></li>
+						<li class="list-group"><a href="#">Tarifas</a></li>
+						<li class="list-group"><a href="#">Entregas</a></li>
+						<li class="list-group"><a href="#">Cómo funciona</a></li>
+						<li class="list-group"><a href="#">Países</a></li>
+						<li class="list-group"><a href="#">Seguridad</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-group link">
+						<li class="list-group"><a href="#">Oportunidades</a></li>
+						<li class="list-group"><a href="#">Nuestra historia</a></li>
+						<li class="list-group"><a href="#">API de LabCar</a></li>
+						<li class="list-group"><a href="#">Eventos</a></li>
+						<li class="list-group"><a href="#">Desarrolladores</a></li>
+						<li class="list-group"><a href="#">Servicios</a></li>
+						<li class="list-group"><a href="#">Laboratoria</a></li>
+						<li class="list-group"><a href="#">Coders</a></li>
+					</ul>
+				</div>
+				<div class="padding-y-10">
+					<img src="assets/img/app-store.png" alt="Apple store">
+				</div>
+				<div>
+					<img src="assets/img/google-play.png" alt="Google play">
+				</div>
 			</div>
-			<div class="col-md-4">
-				<a href="#">Oportunidades</a>
-				<a href="#">Nuestra historia</a>
-				<a href="#">API de labCar</a>
-				<a href="#">Eventos</a>
-				<a href="#">Desarrolladores</a>
-				<a href="#">Servicios</a>
-				<a href="#">Laboratoria</a>
-				<a href="#">Coders</a>
-			</div>
-			<div class="col-md-4">
-				<img src="assets/img/app-store.png" alt="appstore">
-				<img src="assets/img/google-play.png" alt="">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<p>© 2017 LabCar technologies Inc.</p>
-			</div>
-		</div>
+			<hr>
+			<p class="text-center">© 2017 LabCar technologies Inc.</p>
 	</footer>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw3zOLwrB6jYnoJifeSaPwGJsiTi62Msg&libraries=places&callback=initMap"
         async defer></script>

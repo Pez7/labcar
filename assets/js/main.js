@@ -1,4 +1,4 @@
-function initMap() {
+function initMap(){
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -34.397, lng: 150.644},
     zoom: 18
@@ -20,10 +20,11 @@ function initMap() {
       };
 
       infoWindow.setPosition(pos);
-      infoWindow.setContent("Ud está aquí");
+      infoWindow.setContent("Estas aquí");
       map.setCenter(pos);
-    }, function() {
-      handleLocationError(true, infoWindow, map.getCenter());
+    },
+    function() {
+		handleLocationError(true, infoWindow, map.getCenter());
     });
   } else {
     // Si el navegador no es compatible:
