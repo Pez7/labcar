@@ -129,5 +129,45 @@ font-size: 32px;
     width: 262px;
 }
 .fourth{
-	background-color: #f7b617
+	background-color: #f7b617;
+	height: 534px;
+}
+.tarifa h3{
+	padding-top: 39px;
+    padding-left: 91px;
+    color: white;
+}
+.tarifa p{
+	color: white;
+    padding-left: 93px;
+}
+#info1{
+	padding-left: 92px;
+    padding-top: 14px;
+}
+#info2{
+	padding-left: 92px;
+    padding-top: 14px;
+}
+.tarifa input{
+	position: relative;
+    left: 124px;
+    width: 284px;
+    bottom: 26px;
+    background: transparent;
+    text-decoration-color: white;
+}
+.ing::-webkit-input-placeholder {
+  color: #fff;
+}
+.tarifa button{
+	position: relative;
+    left: 174px;
+}
+#map{
+	height: 390px;
+	margin: 15px auto;
+}
+.border-white{
+    border: 1px solid #fff;
 }

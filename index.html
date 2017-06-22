@@ -79,14 +79,16 @@
 				<div class="tarifa">
 					<h3>Tarifas</h3>
 					<p>Consulta las tarifas de labCar aquí</p>
-					<img src="assets/img/circulo.png" alt="circulo"> <input type="text" class="form-control" placeholder="Ingrese su punto de partida">
-					<img src="assets/img/flecha.png" alt="flecha"> <input type="text" class="form-control" placeholder="Ingrese su destino">
+					<img id="info1" src="assets/img/circulo.png" alt="circulo">
+					<input id="origen" type="text" class="ing form-control" placeholder="Ingrese su punto de partida">
+					<img id="info2" src="assets/img/flecha.png" alt="flecha">
+					<input id="destino" type="text" class="ing form-control" placeholder="Ingrese su destino">
 					<button type="button" class="btn btn-default">¡TRAZAR RUTA!</button>
 				</div>
-				<div class="map">
-					<!-- aqui va el mapa -->
-				</div>
 			</div>
+				<div class="pull-right full-height border-white col-md-6 col-md-offset-2 hidden-xs hidden-sm">
+					<div id="map"></div>
+				</div>
 		</div>
 	</section>
 	<footer>
