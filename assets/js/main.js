@@ -14,22 +14,27 @@ function initMap(){
 
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = {
+      var location = {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
 
-      infoWindow.setPosition(pos);
+      infoWindow.setPosition(location);
       infoWindow.setContent("Estas aquí");
-      map.setCenter(pos);
+      map.setCenter(location);
     },
     function() {
 		handleLocationError(true, infoWindow, map.getCenter());
     });
   } else {
-    // Si el navegador no es compatible:
+
     handleLocationError(false, infoWindow, map.getCenter());
   }
+  document.getElementById("trazar").addEventListener("click",function(){
+  	alert("aqui debe trazar la ruta");
+  });
+
+  
 }
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   infoWindow.setPosition(pos);
