@@ -181,3 +181,33 @@ font-size: 32px;
 footer{
 	background-color: #2b2b2b;
 }
+#blanco{
+	padding: 53px 0 0 103px;
+}
+footer hr{
+    width: 89%;
+    margin-left: 86px;
+}
+.link >li >a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	font-size: 16px;
+}
+.link >li >a:hover{
+	text-decoration: underline;
+}
+.row >div>img{
+	position: relative;
+    top: 168px;
+    right: 42px;
+    padding-bottom: 18px;
+}
+.fa{
+	color: white;
+    margin-left: 8px;
+    position: relative;
+    left: 81px;
+    top: 298px;
+    font-size: 17px;
+}
