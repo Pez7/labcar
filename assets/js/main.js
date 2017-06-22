@@ -3,6 +3,13 @@ function initMap() {
     center: {lat: -34.397, lng: 150.644},
     zoom: 18
   });
+	var input1 = (document.getElementById("origen"));
+    var autocomplete = new google.maps.places.Autocomplete(input1);
+        autocomplete.bindTo("bounds", map);
+
+	var input2 = (document.getElementById("destino"));
+    var autocomplete = new google.maps.places.Autocomplete(input2);
+        autocomplete.bindTo("bounds", map);
   var infoWindow = new google.maps.InfoWindow({map: map});
 
   if (navigator.geolocation) {
@@ -22,4 +29,10 @@ function initMap() {
     // Si el navegador no es compatible:
     handleLocationError(false, infoWindow, map.getCenter());
   }
+}
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+  infoWindow.setPosition(pos);
+  infoWindow.setContent(browserHasGeolocation ?
+                        'Error: El servicio Geolocation falló.' :
+                        'Error: Tu navegador no soporta Geolocation.');
 }

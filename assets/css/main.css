@@ -165,8 +165,9 @@ font-size: 32px;
     left: 174px;
 }
 #map{
-	height: 390px;
-	margin: 15px auto;
+	width: 606px;
+    height: 436px;
+    margin: -256px 144px;
 }
 .border-white{
     border: 1px solid #fff;
